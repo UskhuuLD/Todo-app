@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   font-family: "Inter", sans-serif;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 140px;
+}
+.board{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 377px;
+    height: 290px;
+    border-radius: 6px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+    padding-right: 16px;
+    padding-top: 24px;
+    gap: 24px;
+  box-shadow:#00000029 0px 0px 5px 1px ; 
+  
+    background-color: white;
+}
+.taskhead{display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#task{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    width: 280px;
+    height: 38px;
+    color:#71717A;
+    gap: 6px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color:#E4E4E7;
+}
+.taskhead button{
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 59px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #3c82f6;
+    gap: 10px;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: -130px;
+
+}
+#all{
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 32px;
+    border-radius: 6px;
+    background-color: #3c82f6;
+    gap: 10px;
+}
+#active{
+border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 32px;
+    border-radius: 6px;
+    background-color: #F3F4F6;
+    gap: 10px;
+}
+#Completed{
+border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 87px;
+    height: 32px;
+    border-radius: 6px;
+    background-color:#F3F4F6;
+    gap: 10px;
+}
+
+.message{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 345px;
+    height: 17px;
+    color: #6B7280;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 345px;
+    height: 15px;
+    gap: 4px;
+    font-size: 12px;
+    color: #6B7280;
+}
